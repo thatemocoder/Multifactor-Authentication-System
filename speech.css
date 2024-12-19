@@ -1,0 +1,55 @@
+/* Dark theme and centered content */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #1e1e1e; /* Slightly lighter dark background for container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #4caf50; /* Highlight the text to read */
+}
+
+button {
+    background-color: #4caf50; /* Green button */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:disabled {
+    background-color: #555555; /* Gray color for disabled buttons */
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #45a049; /* Slightly lighter green on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
